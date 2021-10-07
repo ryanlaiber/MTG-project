@@ -1,8 +1,12 @@
 import React from 'react';
+import PokeList from '../../components/PokeList';
 
 function MainPage() {
   return(
-    <p>Sou a main page</p>
+    <main>
+      <p>Sou a main page</p>
+      <PokeList />
+    </main>
   );
 };
 
