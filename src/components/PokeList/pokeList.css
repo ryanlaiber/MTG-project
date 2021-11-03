@@ -1,0 +1,10 @@
+#pokeList {
+  padding: 5px;
+  width: 45%;
+  height: 300px;
+  overflow: auto;
+}
+
+#pokeList>li {
+  list-style: none;
+}
